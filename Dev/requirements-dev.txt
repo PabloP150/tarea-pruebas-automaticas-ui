@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest
+pytest-cov
+moto[dynamodb,s3]
+fastapi
+uvicorn[standard]

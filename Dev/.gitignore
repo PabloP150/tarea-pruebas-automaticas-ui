@@ -1,0 +1,20 @@
+# ── Python / backend de desarrollo ──────────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ── Sistema operativo / editores ────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# Nota: los artefactos del frontend (node_modules, dist, reportes de
+# Playwright) los ignora Dev/frontend/.gitignore.

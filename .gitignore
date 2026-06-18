@@ -1,0 +1,23 @@
+# Dependencias y artefactos (se regeneran con los pasos del README)
+**/node_modules/
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.coverage
+**/.mypy_cache/
+**/.ruff_cache/
+**/dist/
+**/dist-ssr/
+
+# Playwright
+**/test-results/
+**/playwright-report/
+**/blob-report/
+**/playwright/.cache/
+
+# OS / editores
+.DS_Store
+Thumbs.db
+*.local

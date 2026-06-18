@@ -1,0 +1,9 @@
+/* index.css — minimal base, styles.css is the primary design system */
+
+/* Ensure body has no margin (some resets skip this) */
+body {
+  margin: 0;
+}
+
+/* index.css originally set a conflicting #root width/text-align.
+   styles.css handles #root with overrides; keep this file minimal. */
